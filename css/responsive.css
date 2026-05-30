@@ -1,0 +1,520 @@
+@media screen and (max-width:1200px) {
+    nav#main-nav ul li{
+        margin: 0 6px;
+    }
+    a#logo-wrapper img{
+        height: auto;
+        width: 65%;
+    }
+    nav#main-nav ul li a:link,
+    nav#main-nav ul li a:visited{
+        font-size: 17px;
+    }
+    #parent h3{
+        font-size: 25px;
+    }
+    #parent h2{
+        font-size: 60px;
+    }
+    #parent p{
+        font-size: 17px;
+    }
+    #search-wrapper{
+        width: 60%;
+    }
+    #statistics-wrapper{
+        margin: 0;
+        padding: 0;
+    }
+    .section-title{
+        font-size: 32px;
+    }
+    .section-title::before{
+        left: 41%;
+    }
+    .section-title::after{
+        right: 46%;
+    }
+    .section-subtitle{
+        font-size: 16px;
+    }
+    .service{
+        padding: 13px;
+    }
+    .service h3{
+        font-size: 18px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+    .service p{
+        font-size: 13px;
+    }
+    .icon-wrapper{
+        width: 73px;
+        height: 77px;
+        font-size: 30px;
+    }
+    .service a{
+        font-size: 17px;
+    }
+    .statistic-list li h3{
+        font-size: 64px;
+    }
+    #statistics-wrapper{
+        height: 315px;
+    }
+    #statistics-wrapper::before{
+        padding: 5px;
+        min-height: 97%;
+    }
+    .statistic-list li p{
+        font-size: 12px;
+    }
+    .icon-statistic-wrapper{
+        font-size: 45px;
+    }
+    #comments-wrapper{
+        padding: 0;
+    }
+    #comment-box{
+        width: 100%;
+        padding: 0;
+    }
+    .comment-box p{
+        font-size: 13px;
+    }
+    .comment-box img{
+        width: 90px;
+        height: 90px;
+    }
+    .circle-background{
+        width: 90px;
+        height: 94px;
+    }
+    .title-wrapper{
+        top: 11%;
+        right: 28%;
+    }
+    .comment-box h3{
+        font-size: 19px;
+    }
+    .comment-box h4{
+        font-size: 15px;
+        margin: 5px;
+    }
+    .title-wrapper i{
+        font-size: 11px;
+    }
+    .comment-box{
+        padding: 10px;
+    }
+    .icon-list li{
+        font-size: 17px;
+    }
+    .portfolio-menu li{
+        font-size: 15px;
+    }
+    .portfolio-menu ul{
+        gap: 12px;
+        padding: 16px 5px;
+    }
+    .portfolio-menu a:link, .portfolio-menu a:visited{
+        padding: 10px 20px;
+    }
+    #protfolio{
+        margin-top: -4.5%;
+    }
+    .protfolio-box p{
+        font-size: 14px;
+    }
+    .protfolio-box h4{
+        font-size: 19px;
+    }
+    figure.member h3{
+        font-size: 16px;
+    }
+    figure.member h4{
+        font-size: 13px;
+    }
+    figure.member::after{
+        height: 26.5%;
+    }
+    #column-wrapper{
+        width: 97%;
+        padding:20px;
+    }
+    #column-one img{
+        width: 60%;
+        height: auto;
+    }
+    #column-one p{
+        font-size: 17px;
+    }
+    #column-one ul li a{
+        font-size: 25px;
+    }
+    #column-two ul li{
+        font-size: 17px;
+    }
+    #column-three img{
+        width: 175px;
+    }
+    #column-four a{
+        font-size: 13px;
+    }
+    ul.contact-list li i{
+        font-size: 56px;
+    }
+    ul.contact-list li h4{
+        font-size: 23px;
+        margin: 28px 0 0 0;
+    }
+    ul.contact-list li p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:992px){
+    .container{
+        width: 90%;
+    }
+    nav#main-nav ul li {
+        margin: 0 3px;
+    }
+    a#logo-wrapper img{
+        height: auto;
+        width: 40%;
+    }
+    nav#main-nav ul li a:link,
+    nav#main-nav ul li a:visited{
+        font-size: 14px;
+    }
+    #parent h3{
+        font-size: 20px;
+    }
+    #parent h2{
+        font-size: 50px;
+    }
+    #parent p{
+        font-size: 14px;
+    }
+    input[type="submit"]{
+        padding: 9px 15px;
+    }
+    #search{
+        height: 40px;
+        width: calc(100% - 98px);
+    }
+    #services{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .service{
+        flex-basis: 47%;
+    }
+    #comments{
+        width: 90%;
+    }
+    #statistics-wrapper::before{
+        padding: 4px;
+    }
+    .section-title::before{
+        left:  40%;
+    }
+    .section-title::after{
+        right: 45.5%;
+    }
+    .portfolio-menu ul{
+        gap: 38px;
+    }
+    #protfolio{
+        grid-template-columns: auto auto;
+    }
+    .team-member{
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    figure.member{
+        flex-basis: 48%;
+    }
+    #column-wrapper{
+        flex-wrap: wrap;
+    }
+    .column{
+        flex-basis: 50%;
+    }
+    #column-one ul{
+        gap: 18px;
+    }
+    #column-three ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
+@media screen and (max-width:768px){
+    nav#main-nav ul{
+        display: none;
+    }
+    #search-wrapper{
+        width: 85%;
+    }
+    #parent p{
+        margin-bottom: 8%;
+    }
+    .section-title::before{
+        left: 37%;
+    }
+    .section-title::after{
+        right: 44.5%;
+    }
+    #services{
+        gap: 28px;
+    }
+    .service{
+        flex-basis: 100%;
+    }
+    .icon-wrapper{
+        font-size: 33px;
+    }
+    .service p{
+        margin-bottom: 5%;
+    }
+    .service h3{
+        font-size: 20px;
+    }
+    .service a{
+        font-size: 21px;
+    }
+    .statistic-list{
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 11%;
+    }
+    .statistic-list li{
+        flex-basis: 46%;
+    }
+    #statistics-wrapper{
+        height: 480px;
+    }
+    #statistics-wrapper::before{
+        min-height: 98%;
+        padding: 3px;
+    }
+    .icon-statistic-wrapper{
+        font-size: 38px;
+    }
+    .statistic-list li h3{
+        font-size: 60px;
+    }
+    .statistic-list li p{
+        font-size: 10.5px;
+    }
+    .circle-background{
+       margin: 0 100px 0 0;
+    }
+    .comment-box {
+        text-align: center;
+        background-size: 15%;
+        background-position: 25px 33px;
+    }
+    .title-wrapper{
+        text-align: center;
+        position: static;
+    }
+    .comment-box p{
+        margin: 15px;
+    }
+    .portfolio-menu ul{
+        gap: 12px;
+    }
+    #protfolio{
+        margin-top: -9%;
+    }
+    #column-wrapper{
+        padding: 35px;
+    }
+    ul.contact-list{
+        flex-wrap: wrap;
+        column-gap: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-control{
+        flex-basis: 48%;
+        min-height: 55px;
+        border-radius: 6px;
+    }
+    #paper-plane{
+        bottom: 20px;
+    }
+    #column-one img{
+        width: 50%;
+        margin-right: 8%;
+        margin-top: 5%;
+    }
+    #column-one p{
+        font-size: 15px;
+    }
+    #column-one ul{
+        gap: 10px;
+    }
+    #column-one ul{
+        font-size: 15px;
+    }
+    h3.column-title{
+        font-size: 23px;
+    }
+    h3.column-title::after{
+        bottom: -10px;
+        width: 85px;
+    }
+    #column-four a{
+        padding: 9px 10px;
+    }
+    #copyright p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:676px){
+    #parent p{
+        margin-bottom: 10%;
+    }
+    .container{
+        width: 87%;
+    }
+    .section-title{
+        font-size: 28px;
+    }
+    .section-title::before{
+        left: 35%;
+        width: 140px;
+    }
+    .section-title::after{
+        bottom: -35%;
+        width: 77px;
+        right: 41.5%;
+    }
+    .icon-wrapper{
+        height: 85px;
+    }
+    .service p{
+        margin-bottom: 8%;
+    }
+    #services{
+        gap: 35px;
+    }
+    .statistic-list{
+        flex-direction: column;
+    }
+    #statistics-wrapper{
+        height: 590px;
+    }
+    .statistic-list{
+        margin: 10px;
+        gap: 17px;
+    }
+    .statistic-list li p{
+        margin: 0;
+    }
+    #statistics-wrapper::before{
+        min-height: 99%;
+    }
+    .statistic-list li h3{
+        font-size: 57px;
+    }
+    #statistics-wrapper{
+        margin-bottom: 8%;
+    }
+    #comments{
+        flex-wrap: wrap;
+    }
+    #comment-box{
+        width: 85%;
+    }
+    .comment-box{
+        flex-basis: 98%;
+        padding: 15px;
+        background-size: 12%;
+    }
+    .circle-background {
+        position: absolute;
+        top: 5%;
+        right: 14%;
+    }
+    .comment-box p{
+        line-height: 1.8;
+    }
+    .icon-list{
+        column-gap: 8px;
+    }
+    .portfolio-menu ul{
+        flex-wrap: wrap;
+        border-radius: 15px;
+        padding: 14px 10px;
+        row-gap: 7px;
+    }
+    .portfolio-menu li{
+        flex-basis: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid white;
+    }
+    .portfolio-menu a:link, .portfolio-menu a:visited{
+        padding: 0;
+        border-radius: 0;
+        border: none;
+    }
+    .portfolio-menu Li:hover a,.portfolio-menu li.active a{
+        border: none;
+        border-radius: 0;
+        color: white;
+        padding: 0;
+    }
+    .portfolio-menu li:hover, .portfolio-menu li.active{
+        color: white;
+        border: 1px solid var(--primarycolor);
+        padding: 10px;
+        border-radius: 15px;
+        background-color: var(--primarycolor);
+    }
+    #protfolio{
+        margin-top: 0%;
+        grid-template-columns: auto;
+    }
+    figure.member{
+        flex-basis: 100%;
+    }
+    #contact-wrapper{
+        margin-top: 5%;
+    }
+    ul.contact-list{
+        column-gap: 181px;
+    }
+    ul.contact-list li{
+        margin: 2% 0;
+    }
+    .form-control{
+        flex-basis: 99%;
+    }
+    #column-wrapper{
+
+    }
+    .column{
+        flex-basis: 89%;
+    }
+    #column-one img{
+        margin-right: 31%;
+    }
+    #column-one ul{
+        column-gap: 45px;
+    }
+    #column-three ul{
+        margin: 0 30%;
+    }
+    #column-four a{
+        margin: 3px;
+    }
+    #copyright p{
+        font-size: 12px;
+    }
+}
