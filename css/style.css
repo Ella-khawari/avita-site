@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'my-yekan';
     font-weight: normal;
-    src: url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'), url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff') ;
+    src: url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff') ;
 }
 @font-face {
     font-family: 'my-yekan';
@@ -11,22 +11,22 @@
 @font-face {
     font-family: 'my_pinar';
     font-weight: normal;
-    src: url('fonts/pinar/Pinar-Regular.ttf') format('truetype'), url('css/fonts/pinar/Pinar-Regular.woff2') format('woff2') ;
+    src: url('fonts/pinar/Pinar-Regular.ttf') format('truetype'),url('css/fonts/pinar/Pinar-Regular.woff2') format('woff2') ;
 }
 @font-face {
     font-family: 'my_pinar';
     font-weight: bold;
-    src: url('fonts/pinar/Pinar-Bold.ttf') format('truetype'), url('css/fonts/pinar/Pinar-Bold.woff2') format('woff2');
+    src: url('fonts/pinar/Pinar-Bold.ttf') format('truetype'),url('css/fonts/pinar/Pinar-Bold.woff2') format('woff2');
 }
 @font-face {
     font-family: 'my_pinar';
     font-weight: normal;
-    src: url("fonts/pinar/pinar-regular.ttf") format("truetype"), url('css/fonts/pinar/pinar-regular.woff2') format('woff2');
+    src: url("fonts/pinar/pinar-regular.ttf") format("truetype"),url('css/fonts/pinar/pinar-regular.woff2') format('woff2');
 }
 @font-face {
     font-family: 'my_pinar';
     font-weight: bold;
-    src: url("fonts/pinar/pinar-bold.ttf") format("truetype"), url('css/fonts/pinar/pinar-bold.woff2') format('woff2');
+    src: url("fonts/pinar/pinar-bold.ttf") format("truetype"),url('css/fonts/pinar/pinar-bold.woff2') format('woff2');
 }
 @keyframes scale{
     0%{
